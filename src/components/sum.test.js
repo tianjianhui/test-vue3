@@ -13,11 +13,11 @@ test("object equal", () => {
     two: {
       kkk: "hello"
     }
-  };
+  }
   expect(data).toEqual({
     one: 1,
     two: {
       kkk: "hello"
     }
-  }); // toEqual 一般用来检查对象的值
-});
+  }) // toEqual 一般用来检查对象的值
+})

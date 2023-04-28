@@ -1,3 +1,12 @@
+<!--
+ * @Author: 田建辉
+ * @Date: 2023-04-24 18:17:58
+ * @LastEditors: 田建辉
+ * @LastEditTime: 2023-04-28 17:02:57
+ * @FilePath: /vue3-project/src/App.vue
+ * @Description:
+ * 
+-->
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'

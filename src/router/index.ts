@@ -2,13 +2,13 @@
  * @Author: 田建辉
  * @Date: 2023-04-24 18:17:58
  * @LastEditors: 田建辉
- * @LastEditTime: 2023-04-25 16:39:30
+ * @LastEditTime: 2023-04-28 17:03:45
  * @FilePath: /vue3-project/src/router/index.ts
  * @Description:
  * 
  */
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
