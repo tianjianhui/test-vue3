@@ -8,9 +8,10 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
-    "lint": "npx eslint src",
+    "lint": "npx eslint src --fix",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "git add . && git cz"
   },
   "dependencies": {
     "element3": "^0.0.40",
