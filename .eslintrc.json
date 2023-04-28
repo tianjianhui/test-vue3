@@ -21,6 +21,6 @@
     ],
     
     "rules": {
-        "semi": ["warn","never"]
+        "semi": ["error","never"]
     }
 }
